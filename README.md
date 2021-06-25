@@ -22,9 +22,11 @@ open terminal and paste the path. If success will show (env) at the terminal
 
 test run the script
 
-`python extract_paramDGN.py`
-`python extract_paramJSON.py`
-`python extract_paramProbe.py`
+```
+python extract_paramDGN.py
+python extract_paramJSON.py
+python extract_paramProbe.py
+```
 
 ## 3. Setup Database using PostgreSQL
 install pgadmin with postgresql on link `https://www.postgresql.org/download/`
@@ -42,10 +44,14 @@ create database by using following command on psql
 `createdb ict_demo`
 
 open create_table_dgn.py, create_table_probe.py, create_table_ictjson.py file
+
 config the host, dbname, user, password, then run the script
-`python create_table_dgn.py`
-`python create_table_ictjson.py`
-`python create_table_probe.py`
+
+```
+python create_table_dgn.py
+python create_table_ictjson.py
+python create_table_probe.py
+```
 
 open PGadmin to check database or use psql terminal by command `\c userlist`
 
